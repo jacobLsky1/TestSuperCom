@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_location"
+        android:checkable="true"
+        android:enabled="true"
+        android:icon="@drawable/baseline_my_location_24"
+        android:title="location"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_bluetooth"
+        android:checkable="true"
+        android:enabled="true"
+        android:icon="@drawable/baseline_bluetooth_24"
+        android:title="bluetooth"
+        app:showAsAction="ifRoom" />
+
+</menu>
